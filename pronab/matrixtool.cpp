@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
-int determinant( int n;int p[n][n]){
-   
+int determinant( int n, int p[n][n] ){
+    int m=n;
+   if(m==2){
    int m1=0;
    for(int i=0; i<n;i++)
     { 
@@ -9,7 +10,10 @@ int determinant( int n;int p[n][n]){
 
         
     }
-   
+   }
+   else{
+    cout<<"Drunken "<<endl;
+   }
 }
 int main()
 {
